@@ -4,6 +4,7 @@ public class java_class_2 {
     string abc;
     int ID;
 
+
     string name;
     int roll;
 
@@ -11,6 +12,7 @@ public class java_class_2 {
         this.abc = abc;
         this.ID = ID;
         this.name = name;
+
         this.roll = roll;
     }
 
@@ -30,12 +32,14 @@ public class java_class_2 {
         this.ID = ID;
     }
 
+
     public string getName() {
         return name;
     }
 
     public void setName(string name) {
         this.name = name;
+
     }
 
     public int getRoll() {
