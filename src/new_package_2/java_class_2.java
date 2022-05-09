@@ -4,13 +4,15 @@ public class java_class_2 {
     string abc;
     int ID;
 
-    string efg;
+
+    string name;
     int roll;
 
-    public java_class_2(string abc, int ID, string efg, int roll) {
+    public java_class_2(string abc, int ID, string name, int roll) {
         this.abc = abc;
         this.ID = ID;
-        this.efg = efg;
+        this.name = name;
+
         this.roll = roll;
     }
 
@@ -30,12 +32,14 @@ public class java_class_2 {
         this.ID = ID;
     }
 
-    public string getEfg() {
-        return efg;
+
+    public string getName() {
+        return name;
     }
 
-    public void setEfg(string efg) {
-        this.efg = efg;
+    public void setName(string name) {
+        this.name = name;
+
     }
 
     public int getRoll() {
